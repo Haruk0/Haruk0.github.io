@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>砕月的博客</title>
+  
+  <subtitle>俟河之清，人寿几何。</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-10-20T06:46:53.978Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>砕月</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>摩西摩西</title>
+    <link href="http://yoursite.com/2018/10/15/test/"/>
+    <id>http://yoursite.com/2018/10/15/test/</id>
+    <published>2018-10-15T14:16:10.000Z</published>
+    <updated>2018-10-20T06:46:53.978Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是hexo安装后初始化后的第一篇post，写生成这篇post的代码时，我还不知道它是做什么的（题目已经修改了）：</p><p>hexo init “test”`</p><p>直到网页在localhost:4000可以访问，看到这文章的名字时，我才恍然大悟。</p><p>我在python的书上看到，初次接触一门语言时，如果第一个写的程序是输出“hello world”，程序员后面的编程就会带（减）来（少）好（八阿）运（哥），虽然我一开始并不相信这种说法。<br>我就留着之前自动生成的那篇Hello World日志吧，希望那篇日志能给我的生活带来好运。</p><p>已经大三了，大家多多少少都会考虑一点未来的事了，而面对这一切，我还不知道我自己，在走向工作岗位，或者追求更高的学位时，会有什么样的表现。我会继续学业，还是进入公司打工；我会进入月薪10K的公司，还是去5，6K的养老岗位混一混；我是有机会进入网易之类的大企业，还是像考大学时候一样，去了一个我根本没听说过的地方；我会撑到出人头地，还是年复一年，默默无闻，甚至碌碌无为，被自己的焦虑打败，变成废人。</p><p>我都不知道。不过，我已经不会再逃避了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这是hexo安装后初始化后的第一篇post，写生成这篇post的代码时，我还不知道它是做什么的（题目已经修改了）：&lt;/p&gt;
+&lt;p&gt;hexo init “test”`&lt;/p&gt;
+&lt;p&gt;直到网页在localhost:4000可以访问，看到这文章的名字时，我才恍然大悟。&lt;/p&gt;
+&lt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/10/15/hello-world/"/>
+    <id>http://yoursite.com/2018/10/15/hello-world/</id>
+    <published>2018-10-15T14:12:09.879Z</published>
+    <updated>2018-10-17T05:53:10.665Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-20T06:46:53.978Z</updated>
+  <updated>2018-10-26T12:53:47.553Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,22 +17,43 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>摩西摩西</title>
-    <link href="http://yoursite.com/2018/10/15/test/"/>
-    <id>http://yoursite.com/2018/10/15/test/</id>
-    <published>2018-10-15T14:16:10.000Z</published>
-    <updated>2018-10-20T06:46:53.978Z</updated>
+    <title></title>
+    <link href="http://yoursite.com/2018/10/26/p181026/"/>
+    <id>http://yoursite.com/2018/10/26/p181026/</id>
+    <published>2018-10-26T12:43:07.000Z</published>
+    <updated>2018-10-26T12:53:47.553Z</updated>
     
-    <content type="html"><![CDATA[<p>这是hexo安装后初始化后的第一篇post，写生成这篇post的代码时，我还不知道它是做什么的（题目已经修改了）：</p><p>hexo init “test”`</p><p>直到网页在localhost:4000可以访问，看到这文章的名字时，我才恍然大悟。</p><p>我在python的书上看到，初次接触一门语言时，如果第一个写的程序是输出“hello world”，程序员后面的编程就会带（减）来（少）好（八阿）运（哥），虽然我一开始并不相信这种说法。<br>我就留着之前自动生成的那篇Hello World日志吧，希望那篇日志能给我的生活带来好运。</p><p>已经大三了，大家多多少少都会考虑一点未来的事了，而面对这一切，我还不知道我自己，在走向工作岗位，或者追求更高的学位时，会有什么样的表现。我会继续学业，还是进入公司打工；我会进入月薪10K的公司，还是去5，6K的养老岗位混一混；我是有机会进入网易之类的大企业，还是像考大学时候一样，去了一个我根本没听说过的地方；我会撑到出人头地，还是年复一年，默默无闻，甚至碌碌无为，被自己的焦虑打败，变成废人。</p><p>我都不知道。不过，我已经不会再逃避了。</p>]]></content>
+    <content type="html"><![CDATA[<p>十里寒塘路，烟花一半醒。</p><p>​                    ——【清】魏宪《西湖春晓》</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;这是hexo安装后初始化后的第一篇post，写生成这篇post的代码时，我还不知道它是做什么的（题目已经修改了）：&lt;/p&gt;
-&lt;p&gt;hexo init “test”`&lt;/p&gt;
-&lt;p&gt;直到网页在localhost:4000可以访问，看到这文章的名字时，我才恍然大悟。&lt;/p&gt;
-&lt;
+        &lt;p&gt;十里寒塘路，烟花一半醒。&lt;/p&gt;
+&lt;p&gt;​                    ——【清】魏宪《西湖春晓》&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>摩西摩西</title>
+    <link href="http://yoursite.com/2018/10/15/test/"/>
+    <id>http://yoursite.com/2018/10/15/test/</id>
+    <published>2018-10-15T14:16:10.000Z</published>
+    <updated>2018-10-26T12:53:08.723Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是hexo安装后初始化后的第一篇post，写生成这篇post的代码时，我还不知道它是做什么的，直到网页在localhost:4000可以访问，看到这文章的名字时，我才知道我生成了一篇日志。</p><p>我在python的书上看到，初次接触一门语言时，如果第一个写的程序是输出“hello world”，就会给程序员后面的编程带来好运，虽然我并不相信这种带来好运的说法，就像转发锦鲤之类的蠢东西一样。<br>不过我还是留着之前自动生成的那篇Hello World日志吧，权当为我的大三生活做个纪念。</p><p>到底该怎么办呢，是上班还是上学呢，这是个问题呀。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这是hexo安装后初始化后的第一篇post，写生成这篇post的代码时，我还不知道它是做什么的，直到网页在localhost:4000可以访问，看到这文章的名字时，我才知道我生成了一篇日志。&lt;/p&gt;
+&lt;p&gt;我在python的书上看到，初次接触一门语言时，如果第一个写的程序是
       
     
     </summary>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-28T14:38:37.514Z</updated>
+  <updated>2018-12-03T03:27:36.893Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>LeetCode初级篇（一）</title>
+    <link href="http://yoursite.com/2018/12/03/p181203/"/>
+    <id>http://yoursite.com/2018/12/03/p181203/</id>
+    <published>2018-12-03T03:19:07.000Z</published>
+    <updated>2018-12-03T03:27:36.893Z</updated>
+    
+    <content type="html"><![CDATA[<p>去LeetCode注册了一下，看了看，顺便把初级篇的第一题做了。</p><p>其实想要通过还蛮简单的，但是如何把时间代价降低，我就不太会了。</p><p>而且我第一次还把题理解错了···“相同的元素不能使用两次”的意思应该是：</p><p>假设数组为{4，6，7，8}，目标数字为12，我们得到的解是6+6=12这样子。</p><p>我一开始以为是程序中每一个元素只能出现一次，于是就有了下面的zz代码:<br>​<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">   <span class="keyword">int</span>[] subNums=<span class="keyword">new</span> <span class="keyword">int</span>[nums.length];</span><br><span class="line">   <span class="keyword">int</span>[] returnNums=<span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">2</span>];</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;nums.length;i++)</span><br><span class="line">   &#123;</span><br><span class="line">       subNums[i]=target-nums[i];</span><br><span class="line">   &#125;</span><br><span class="line">   </span><br><span class="line">   <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;nums.length;i++)</span><br><span class="line">   &#123;</span><br><span class="line">       <span class="keyword">for</span>(<span class="keyword">int</span> j=i+<span class="number">1</span>;j&lt;nums.length;j++)</span><br><span class="line">       &#123;</span><br><span class="line">           <span class="keyword">if</span>(subNums[i]+subNums[j]==target)</span><br><span class="line">           &#123;</span><br><span class="line">               returnNums[<span class="number">0</span>]=i;</span><br><span class="line">               returnNums[<span class="number">1</span>]=j;</span><br><span class="line">           &#125;    </span><br><span class="line">       &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">return</span> returnNums;`</span><br></pre></td></tr></table></figure></p><p>曲线救国，把每个数字都算差，然后用差数组检查每两个数字的和······</p><p>这样跑了40ms多，大概就超过了36%的人左右。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;去LeetCode注册了一下，看了看，顺便把初级篇的第一题做了。&lt;/p&gt;
+&lt;p&gt;其实想要通过还蛮简单的，但是如何把时间代价降低，我就不太会了。&lt;/p&gt;
+&lt;p&gt;而且我第一次还把题理解错了···“相同的元素不能使用两次”的意思应该是：&lt;/p&gt;
+&lt;p&gt;假设数组为{4，6，7，8}
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>春物13</title>
